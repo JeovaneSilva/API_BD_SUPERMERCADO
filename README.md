@@ -2,9 +2,14 @@
  
 > Desenvolvido Por: Jeovane Lima
 
-Projeto de uma API com um CRUD feito com node/express e o Banco de Dados PostgreSQL para a visualização, inserção, atualização e exclusão dos produtos de um supermercado.
+Projeto de uma API com um CRUD feito com node/express e o Banco de Dados [PostgreSQL](https://www.postgresql.org/download/windows/). para a visualização, inserção, atualização e exclusão dos produtos de um supermercado.
 
 - [x] Projeto Concluído.
+* É obrigatório a instalação do Postgres e do Node para rodar a aplicação.
+* Estou disponibilizando os códigos SQL usados no projeto, caso queira adicionar dados as tabelas ou visualizar alguma busca de dados.
+* Além da tabela Produto, o database Supermercado tem algumas outras tabelas relacionadas, fique  à vontade para utiliza-las na criação de novos CRUDs. 
+* Para realizar os testes do CRUD é recomendável o [Postman](https://www.postman.com/) com o HTTP Request.
+* Caso tenha dúvidas ou dificuldades, fala comigo no instagram: [Jeovanee.lima](https://www.instagram.com/jeovanee.lima/) .
 
 ## :hammer_and_wrench:​ Ferramentas Utilizadas
 ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) 
@@ -35,7 +40,7 @@ pg: 8.11.5
 
 2. instalar as dependências.
 
-3. Criar um Banco de dados usando o [PostgreSQL](https://www.postgresql.org/download/windows/).
+3. Criar um Banco de dados usando o PostgreSQL.
 
 4. Criar as tabelas contidas no repositório.
 
@@ -43,5 +48,5 @@ pg: 8.11.5
 
 6. Rodar o servidor com ( npm run dev ).
 
-7. Testar o CRUD com a ferramenta [Postman](https://www.postman.com/).
+7. Testar o CRUD com a ferramenta Postman.
 ```
